@@ -1,0 +1,123 @@
+============================= test session starts =============================
+platform win32 -- Python 3.6.8, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- d:\wartsila_pycharm_projects\hiring day\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: D:\Wartsila_PyCharm_Projects\Hiring Day
+collecting ... collected 87 items
+
+all_test.py::test_getting_list_of_all_resources PASSED                   [  1%]
+all_test.py::test_getting_list_of_resources_by_user_id[1] PASSED         [  2%]
+all_test.py::test_getting_list_of_resources_by_user_id[10] PASSED        [  3%]
+all_test.py::test_getting_resource_by_unique_id[1-?id=] PASSED           [  4%]
+all_test.py::test_getting_resource_by_unique_id[1-] PASSED               [  5%]
+all_test.py::test_getting_resource_by_unique_id[10-?id=] PASSED          [  6%]
+all_test.py::test_getting_resource_by_unique_id[10-] PASSED              [  8%]
+all_test.py::test_getting_resource_by_unique_id[100-?id=] PASSED         [  9%]
+all_test.py::test_getting_resource_by_unique_id[100-] PASSED             [ 10%]
+all_test.py::test_getting_resource_by_title PASSED                       [ 11%]
+all_test.py::test_getting_resource_by_body PASSED                        [ 12%]
+all_test.py::test_join_with_comments_by_user_id[1] PASSED                [ 13%]
+all_test.py::test_join_with_comments_by_user_id[10] PASSED               [ 14%]
+all_test.py::test_join_with_comments_by_user_id[100] PASSED              [ 16%]
+all_test.py::test_negative_by_user_id[-1] PASSED                         [ 17%]
+all_test.py::test_negative_by_user_id[0] PASSED                          [ 18%]
+all_test.py::test_negative_by_user_id[11] PASSED                         [ 19%]
+all_test.py::test_negative_by_user_id[0.1] PASSED                        [ 20%]
+all_test.py::test_negative_by_user_id[!] PASSED                          [ 21%]
+all_test.py::test_negative_by_user_id[@] PASSED                          [ 22%]
+all_test.py::test_negative_by_user_id[*] PASSED                          [ 24%]
+all_test.py::test_negative_by_user_id[(] PASSED                          [ 25%]
+all_test.py::test_negative_by_user_id[-] PASSED                          [ 26%]
+all_test.py::test_negative_by_user_id[=] PASSED                          [ 27%]
+all_test.py::test_negative_by_user_id[+] PASSED                          [ 28%]
+all_test.py::test_negative_by_user_id[\\] PASSED                         [ 29%]
+all_test.py::test_negative_by_user_id[//] PASSED                         [ 31%]
+all_test.py::test_negative_by_user_id[`] PASSED                          [ 32%]
+all_test.py::test_negative_by_user_id[&] PASSED                          [ 33%]
+all_test.py::test_negative_by_user_id[\u2116] PASSED                     [ 34%]
+all_test.py::test_negative_by_user_id[;] PASSED                          [ 35%]
+all_test.py::test_negative_by_user_id[^] PASSED                          [ 36%]
+all_test.py::test_negative_by_unique_id_1[0] PASSED                      [ 37%]
+all_test.py::test_negative_by_unique_id_1[-1] PASSED                     [ 39%]
+all_test.py::test_negative_by_unique_id_1[101] PASSED                    [ 40%]
+all_test.py::test_negative_by_unique_id_1[100.1] PASSED                  [ 41%]
+all_test.py::test_negative_by_unique_id_1[!] PASSED                      [ 42%]
+all_test.py::test_negative_by_unique_id_1[@] PASSED                      [ 43%]
+all_test.py::test_negative_by_unique_id_1[*] PASSED                      [ 44%]
+all_test.py::test_negative_by_unique_id_1[(] PASSED                      [ 45%]
+all_test.py::test_negative_by_unique_id_1[-] PASSED                      [ 47%]
+all_test.py::test_negative_by_unique_id_1[=] PASSED                      [ 48%]
+all_test.py::test_negative_by_unique_id_1[+] PASSED                      [ 49%]
+all_test.py::test_negative_by_unique_id_1[\\] PASSED                     [ 50%]
+all_test.py::test_negative_by_unique_id_1[//] PASSED                     [ 51%]
+all_test.py::test_negative_by_unique_id_1[`] PASSED                      [ 52%]
+all_test.py::test_negative_by_unique_id_1[&] PASSED                      [ 54%]
+all_test.py::test_negative_by_unique_id_1[\u2116] PASSED                 [ 55%]
+all_test.py::test_negative_by_unique_id_1[;] PASSED                      [ 56%]
+all_test.py::test_negative_by_unique_id_1[^] PASSED                      [ 57%]
+all_test.py::test_negative_by_unique_id_2[0] PASSED                      [ 58%]
+all_test.py::test_negative_by_unique_id_2[-1] PASSED                     [ 59%]
+all_test.py::test_negative_by_unique_id_2[101] PASSED                    [ 60%]
+all_test.py::test_negative_by_unique_id_2[100.1] PASSED                  [ 62%]
+all_test.py::test_negative_by_unique_id_2[!] PASSED                      [ 63%]
+all_test.py::test_negative_by_unique_id_2[@] PASSED                      [ 64%]
+all_test.py::test_negative_by_unique_id_2[*] PASSED                      [ 65%]
+all_test.py::test_negative_by_unique_id_2[(] PASSED                      [ 66%]
+all_test.py::test_negative_by_unique_id_2[-] PASSED                      [ 67%]
+all_test.py::test_negative_by_unique_id_2[=] PASSED                      [ 68%]
+all_test.py::test_negative_by_unique_id_2[+] PASSED                      [ 70%]
+all_test.py::test_negative_by_unique_id_2[\\] PASSED                     [ 71%]
+all_test.py::test_negative_by_unique_id_2[//] PASSED                     [ 72%]
+all_test.py::test_negative_by_unique_id_2[`] PASSED                      [ 73%]
+all_test.py::test_negative_by_unique_id_2[&] PASSED                      [ 74%]
+all_test.py::test_negative_by_unique_id_2[\u2116] PASSED                 [ 75%]
+all_test.py::test_negative_by_unique_id_2[;] PASSED                      [ 77%]
+all_test.py::test_negative_by_unique_id_2[^] PASSED                      [ 78%]
+all_test.py::test_negative_by_unique_id_3[%] FAILED                      [ 79%]
+all_test.py::test_negative_by_title[] PASSED                             [ 80%]
+all_test.py::test_negative_by_title[qui est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est essequi est esse] PASSED [ 81%]
+all_test.py::test_negative_by_title[!] PASSED                            [ 82%]
+all_test.py::test_negative_by_title[@] PASSED                            [ 83%]
+all_test.py::test_negative_by_title[*] PASSED                            [ 85%]
+all_test.py::test_negative_by_title[(] PASSED                            [ 86%]
+all_test.py::test_negative_by_title[-] PASSED                            [ 87%]
+all_test.py::test_negative_by_title[=] PASSED                            [ 88%]
+all_test.py::test_negative_by_title[+] PASSED                            [ 89%]
+all_test.py::test_negative_by_title[\\] PASSED                           [ 90%]
+all_test.py::test_negative_by_title[//] PASSED                           [ 91%]
+all_test.py::test_negative_by_title[`] PASSED                            [ 93%]
+all_test.py::test_negative_by_title[&] PASSED                            [ 94%]
+all_test.py::test_negative_by_title[\u2116] PASSED                       [ 95%]
+all_test.py::test_negative_by_title[;] PASSED                            [ 96%]
+all_test.py::test_negative_by_title[^] PASSED                            [ 97%]
+all_test.py::test_negative_by_body[] PASSED                              [ 98%]
+all_test.py::test_negative_by_body[eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnameveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam] PASSED [100%]
+
+================================== FAILURES ===================================
+_______________________ test_negative_by_unique_id_3[%] _______________________
+
+unique_id = '%'
+
+    @pytest.mark.parametrize("unique_id", NEGATIVE_FAIL_PARAMETERS)
+    def test_negative_by_unique_id_3( unique_id):
+        response = requests.get(BASE_URL + API_ID_POST2 + str(unique_id))
+>       check_headers(response, "Internal Server Error")
+
+all_test.py:172: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+all_test.py:48: in check_headers
+    check_status_code(response, expected_status)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+response = <Response [404]>, expected_status = 'Internal Server Error'
+
+    def check_status_code(response, expected_status):
+>       assert response.status_code == STATUS_CODES[expected_status], f"Status Code != {STATUS_CODES[expected_status]}"
+E       AssertionError: Status Code != 500
+E       assert 404 == 500
+E         +404
+E         -500
+
+all_test.py:40: AssertionError
+=========================== short test summary info ===========================
+FAILED all_test.py::test_negative_by_unique_id_3[%] - AssertionError: Status ...
+======================== 1 failed, 86 passed in 17.75s ========================
