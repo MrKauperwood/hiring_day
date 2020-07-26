@@ -4,7 +4,7 @@ import requests
 
 BASE_URL = r"https://jsonplaceholder.typicode.com/posts/"
 
-# OK PARAMETERS
+# POSITIVE PARAMETERS
 TEST_DATA_KEYS = ["userId", "id", "title", "body"]
 TEST_TITLE = "qui est esse"
 UNIQUE_IDS = [1, 10, 100]
@@ -160,11 +160,13 @@ def test_negative_by_unique_id_1( unique_id):
     check_headers(response, "OK")
     assert response.json() == []
 
+
 @pytest.mark.parametrize("unique_id", NEGATIVE_UNIQUE_IDS + COMMON_NEGATIVE_PARAMETERS)
 def test_negative_by_unique_id_2( unique_id):
     response = requests.get(BASE_URL + API_ID_POST2 + str(unique_id))
     check_headers(response, "NOT FOUND")
     assert response.json() == {}
+
 
 @pytest.mark.parametrize("unique_id", NEGATIVE_FAIL_PARAMETERS)
 def test_negative_by_unique_id_3( unique_id):
@@ -172,11 +174,13 @@ def test_negative_by_unique_id_3( unique_id):
     check_headers(response, "Internal Server Error")
     assert response.json() == {}, "Failed to decode param!!!"
 
+
 @pytest.mark.parametrize("title", NEGATIVE_TEST_TITLE + COMMON_NEGATIVE_PARAMETERS)
 def test_negative_by_title(title):
     response = requests.get(BASE_URL + API_TITLE_PREFIX + title)
     check_headers(response, "OK")
     assert response.json() == []
+
 
 @pytest.mark.parametrize("body", NEGATIVE_TEST_BODY)
 def test_negative_by_body(body):
